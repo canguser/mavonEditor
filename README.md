@@ -1,6 +1,6 @@
 # mavonEditor 
 
-Forked from [GitHub](https://github.com/hinesboy/mavonEditor#readme)
+Forked from [mavon-editor (hinesboy)](https://github.com/hinesboy/mavonEditor#readme)  
 基于版本：2.9.0
 
 ![npm](https://nodei.co/npm/@palerock/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
