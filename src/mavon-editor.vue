@@ -309,7 +309,7 @@ export default {
             textarea_selectionEnds: [0],
         };
     },
-    created() {
+    beforeMount() {
         var $vm = this;
         // 初始化语言
         this.initLanguage();
@@ -456,7 +456,7 @@ export default {
                 if (isinsert === true) {
                     // 去除特殊字符
                     $file._name = $file.name.replace(/[\[\]\(\)\+\{\}&\|\\\*^%$#@\-]/g, '');
-                    
+
                     $vm.insertText($vm.getTextareaDom(),
                         {
                             prefix: '![' + $file._name + '](' + pos + ')',
@@ -574,7 +574,7 @@ export default {
         // 工具栏插入内容
         insertText(obj, {prefix, subfix, str, type}) {
             // if (this.s_preview_switch) {
-          
+
             insertTextAtCaret(obj, {prefix, subfix, str, type}, this);
         },
         insertTab() {
@@ -682,7 +682,7 @@ export default {
             if (this.xssOptions) {
                 val = xss(val, this.xssOptions);
             }
-            
+
             if (val !== this.d_value) {
                 this.d_value = val
             }

@@ -1,6 +1,6 @@
-# mavonEditor
+# mavonEditor (Forked from [GitHub](https://github.com/hinesboy/mavonEditor#readme))
 
-![npm](https://nodei.co/npm/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
+![npm](https://nodei.co/npm/@palerock/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
 
 > 基于Vue的markdown编辑器
 
@@ -20,7 +20,7 @@
 ### Install mavon-editor (安装)
 
 ```
-$ npm install mavon-editor --save
+$ npm install @palerock/mavon-editor --save
 ```
 
 ### Use (如何引入)

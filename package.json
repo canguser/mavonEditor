@@ -1,6 +1,6 @@
 {
-  "name": "mavon-editor",
-  "version": "2.9.0",
+  "name": "@palerock/mavon-editor",
+  "version": "20.9.6",
   "description": "Vue markdown editor",
   "main": "dist/mavon-editor.js",
   "types": "./mavon-editor.d.ts",
@@ -8,11 +8,12 @@
     "test": "echo true",
     "dev": "webpack-dev-server --open --progress --config webpack/webpack.dev.js",
     "build": "webpack --progress --config webpack/webpack.build.js",
-    "lint": "eslint --fix --ext .js,.vue src/"
+    "lint": "eslint --fix --ext .js,.vue src/",
+    "do-publish": "yarn run build && npm publish --access=public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hinesboy/mavonEditor.git"
+    "url": "git+https://github.com/canguser/mavonEditor.git"
   },
   "keywords": [
     "javascript",
@@ -21,12 +22,12 @@
     "editor",
     "html"
   ],
-  "author": "hinesboy",
+  "author": "Cangshi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hinesboy/mavonEditor/issues"
+    "url": "https://github.com/canguser/mavonEditor/issues"
   },
-  "homepage": "https://github.com/hinesboy/mavonEditor#readme",
+  "homepage": "https://github.com/canguser/mavonEditor#readme",
   "dependencies": {
     "highlight.js": "^9.11.0",
     "highlight.js-async-webpack": "^1.0.4",
